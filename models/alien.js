@@ -10,10 +10,6 @@ const dbSchema = new mongoose.Schema({
     content:{
         type: String,
         required: true
-    },
-    created:{
-        type: String,
-        required: true
     }
 })
 
