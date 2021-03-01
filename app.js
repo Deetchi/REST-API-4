@@ -1,6 +1,6 @@
 const express = require('express') 
 const mongoose = require('mongoose') 
-const url = 'mongodb+srv://tpgit:tpgit2020@bookbank.w18lj.mongodb.net/bookbank?retryWrites=true&w=majority' 
+const url = 'mongodb+srv://admin:miniblog@cluster0.l3q1a.mongodb.net/MiniBlog?retryWrites=true&w=majority' 
 const PORT = process.env.PORT || 7000;
 
 const app = express() 
