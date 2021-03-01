@@ -12,7 +12,7 @@ const dbSchema = new mongoose.Schema({
         required: true
     },
     created:{
-        type: String,
+        type: Date,
         required: true
     }
 })
