@@ -14,4 +14,4 @@ const dbSchema = new mongoose.Schema({
 
 })
 
-module.exports = mongoose.model('Login', dbSchema)
+module.exports = mongoose.model('login', dbSchema)
