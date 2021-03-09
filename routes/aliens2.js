@@ -24,6 +24,11 @@ router.post('/', async(req, res) => {
     const alien = new Alien({
         firstname: req.body.firstname,
         lastname: req.body.lastname,
+        email: req.body.email,
+        password: req.body.password,
+        batch: req.body.batch,
+        department: req.body.department
+
     })
 
     try {
