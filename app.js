@@ -26,7 +26,7 @@ app.use(function(req, res, next) {
 const alienRouter = require('./routes/aliens')
 const alienRouter2 = require('./routes/aliens2')
 app.use('/posts', alienRouter)
-app.use('v2/mews', alienRouter)
+app.use('/v2/mews', alienRouter)
 app.use('/register', alienRouter2)
 app.use('/login', alienRouter2)
 
